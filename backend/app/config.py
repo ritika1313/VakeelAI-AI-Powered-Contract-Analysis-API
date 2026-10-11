@@ -18,7 +18,10 @@ GEMINI_FALLBACK_MODEL = os.getenv("GEMINI_FALLBACK_MODEL", "gemini-2.5-flash")
 
 # Browser origins allowed to call this API (comma-separated). Never "*".
 CORS_ORIGINS = [
-    origin.strip()
-    for origin in os.getenv("CORS_ORIGINS", "http://localhost:5173").split(",")
-    if origin.strip() and origin.strip() != "*"
+    "https://vakeel-ai-ai-powered-contract-analy.vercel.app",
+    *[
+        origin.strip()
+        for origin in os.getenv("CORS_ORIGINS", "http://localhost:5173").split(",")
+        if origin.strip() and origin.strip() != "*"
+    ],
 ]
