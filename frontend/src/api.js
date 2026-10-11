@@ -1,17 +1,30 @@
 // All communication with the FastAPI backend lives in this one file.
 // Components never call fetch directly, they call these small functions.
 
-// Clean up the value from .env so a small typo cannot break every request.
-// Example: "localhost:8000" (no http://) would otherwise be treated by the browser
-// as a path on the Vite dev server, and every request would come back 404.
+const DEVELOPMENT_API_URL = "http://localhost:8001";
+const PRODUCTION_API_URL =
+  "https://vakeelai-ai-powered-contract-analysis-api.onrender.com";
+
+// Clean up the configured base URL and avoid duplicate slashes when appending routes.
 function cleanBaseUrl(value) {
   const raw = (value || "").trim().replace(/^["']|["']$/g, "");
-  let url = raw || "http://localhost:8000";
+  if (!raw) return "";
+  let url = raw;
   if (!/^https?:\/\//i.test(url)) url = `http://${url}`;
   return url.replace(/\/+$/, "");
 }
 
-export const API_BASE_URL = cleanBaseUrl(import.meta.env.VITE_API_BASE_URL);
+const configuredApiUrl = cleanBaseUrl(import.meta.env.VITE_API_BASE_URL);
+const configuredUrlIsLoopback =
+  /^https?:\/\/(?:localhost|127(?:\.\d{1,3}){3}|\[?::1\]?)(?::\d+)?(?:\/|$)/i.test(
+    configuredApiUrl
+  );
+
+export const API_BASE_URL = import.meta.env.DEV
+  ? configuredApiUrl || DEVELOPMENT_API_URL
+  : configuredApiUrl && !configuredUrlIsLoopback
+    ? configuredApiUrl
+    : PRODUCTION_API_URL;
 console.info("Vakeel API base URL:", API_BASE_URL);
 
 // One helper that every request goes through.
