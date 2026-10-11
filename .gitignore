@@ -1,0 +1,25 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# Node / Vite
+node_modules/
+dist/
+
+# Private uploaded contracts (keep the folder, not the files)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

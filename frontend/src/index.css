@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+/* Design tokens. Tailwind turns each one into utility classes,
+   e.g. --color-forest becomes bg-forest, text-forest, border-forest. */
+@theme {
+  --font-serif: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-sans: "Instrument Sans", ui-sans-serif, system-ui, sans-serif;
+
+  --color-ivory: #f7f5f0;
+  --color-ivory-dark: #efece3;
+  --color-paper: #fcfbf8;
+  --color-forest: #245b49;
+  --color-forest-dark: #1a4436;
+  --color-forest-deep: #143427;
+  --color-sage: #8fa89b;
+  --color-sage-light: #e4eae5;
+  --color-ink: #202824;
+  --color-muted: #5b6760;
+  --color-line: #dcd7ca;
+
+  --color-risk-low: #2f6b4f;
+  --color-risk-low-bg: #e1ede4;
+  --color-risk-medium: #85580a;
+  --color-risk-medium-bg: #f4e8c8;
+  --color-risk-high: #9c4620;
+  --color-risk-high-bg: #f5ddd0;
+  --color-risk-critical: #7a1f2b;
+  --color-risk-critical-bg: #efd3d6;
+}
+
+/* The only custom CSS: page defaults. */
+@layer base {
+  body {
+    @apply bg-ivory font-sans text-ink antialiased;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-serif;
+  }
+}
