@@ -1,0 +1,59 @@
+NON-DISCLOSURE AGREEMENT
+Effective Date: October 8, 2026
+This Non-Disclosure Agreement (“Agreement”) is entered into between:
+Disclosing Party: ABC Technologies Pvt. Ltd., having its principal office at Bengaluru, Karnataka, India.
+and
+Receiving Party: XYZ Solutions Pvt. Ltd., having its principal office at New Delhi, India.
+The parties agree as follows:
+1. Purpose
+The parties intend to discuss and evaluate a potential business relationship involving software development, technology services, and related business activities. During these discussions, the Disclosing Party may disclose confidential information to the Receiving Party.
+2. Confidential Information
+“Confidential Information” means any non-public information disclosed by the Disclosing Party, including but not limited to:
+- Business plans and strategies
+- Software source code and technical documentation
+- Product designs and specifications
+- Customer and supplier information
+- Financial information
+- Pricing and marketing information
+- Trade secrets and proprietary information
+- Any other information identified as confidential or that reasonably should be understood to be confidential
+3. Obligations of Receiving Party
+The Receiving Party agrees to:
+1. Keep all Confidential Information strictly confidential.
+2. Use the Confidential Information only for the Purpose described in this Agreement.
+3. Not disclose Confidential Information to any third party without prior written consent.
+4. Take reasonable security measures to protect the Confidential Information.
+5. Limit access to employees, contractors, and advisors who need the information for the stated Purpose and who are subject to confidentiality obligations.
+4. Exclusions
+Confidential Information does not include information that:
+- Is already publicly available through no breach of this Agreement.
+- Was lawfully known to the Receiving Party before disclosure.
+- Is independently developed without using the Confidential Information.
+- Is lawfully received from a third party without confidentiality restrictions.
+- Must be disclosed by law or governmental authority, provided that the Receiving Party gives reasonable notice where legally permitted.
+5. Return or Destruction of Information
+Upon written request from the Disclosing Party, the Receiving Party shall return or destroy all Confidential Information and copies thereof, except where retention is required by applicable law or regulatory requirements.
+6. Term and Confidentiality Period
+This Agreement shall remain effective for two (2) years from the Effective Date.
+The Receiving Party's confidentiality obligations shall continue for three (3) years following termination of this Agreement, except for trade secrets, which shall remain protected for as long as they qualify as trade secrets under applicable law.
+7. No License or Ownership Transfer
+Nothing in this Agreement grants the Receiving Party any ownership rights, intellectual property rights, or license to the Confidential Information except the limited right to use such information for the stated Purpose.
+8. No Obligation to Proceed
+Nothing in this Agreement requires either party to enter into any further business relationship, transaction, or commercial agreement.
+9. Remedies
+The Receiving Party acknowledges that unauthorized disclosure or use of Confidential Information may cause significant harm to the Disclosing Party. The Disclosing Party may seek appropriate legal remedies for any breach of this Agreement.
+10. Governing Law
+This Agreement shall be governed by and interpreted in accordance with the laws of India.
+11. Entire Agreement
+This Agreement constitutes the entire agreement between the parties regarding confidentiality and supersedes any prior discussions or understandings concerning the same subject matter.
+12. Signatures
+For ABC Technologies Pvt. Ltd.
+Name: Ritika
+Title: Lawyer
+Signature: Ritika
+Date: 8-10-2
+For XYZ Solutions Pvt. Ltd.
+Name: __________________________
+Title: __________________________
+Signature: ______________________
+Date: __________________________

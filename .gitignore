@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Secrets
 .env
 .env.*
@@ -6,10 +7,18 @@
 # Python
 __pycache__/
 *.pyc
+=======
+# Environment variables and secrets
+.env
+.env.*
+
+# Python virtual environments
+>>>>>>> origin/main
 venv/
 .venv/
 env/
 
+<<<<<<< HEAD
 # Node / Vite
 node_modules/
 dist/
@@ -23,3 +32,22 @@ backend/uploads/*
 Thumbs.db
 .vscode/
 .idea/
+=======
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Uploaded contracts and generated files
+uploads/*
+!uploads/.gitkeep
+
+# Local databases and logs
+*.log
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+>>>>>>> origin/main
